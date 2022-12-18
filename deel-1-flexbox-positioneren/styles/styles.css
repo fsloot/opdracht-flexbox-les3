@@ -1,1 +1,83 @@
 /*Schrijf hier jouw CSS*/
+/*
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ */
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.basis-opdracht2 {
+    flex-basis: 33%;
+}
+
+/*
+.opdracht-3 .height-container {
+    height: 100%;
+
+    /*
+    border: 3px dashed #F4978E;
+
+
+}
+*/
+
+.opdracht-3 ul {
+    height: 100%;  /* ipv justify-content: column */
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-opdracht3 {
+    align-self: flex-start;
+}
+
+.center-opdracht3 {
+    align-self: center;
+}
+
+.bottom-opdracht3 {
+    align-self: flex-end;
+}
+
+
+.opdracht-4 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.opdracht-5 div {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opdracht-5 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opdracht-5 .list-item-2 {
+    align-items: center;
+}
+
+.opdracht-5 .list-item-3 {
+    align-items: flex-end;
+}
+
