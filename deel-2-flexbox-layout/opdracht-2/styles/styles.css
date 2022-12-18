@@ -1,1 +1,45 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    border: 2px dashed #16DB93;
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+header {
+    flex-basis: 15vh;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+article {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+footer {
+    flex-basis: 15vh;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
