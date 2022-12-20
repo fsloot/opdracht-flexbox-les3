@@ -8,7 +8,30 @@ body {
     min-height: 100vh;
 }
 
-div {
+nav {
+    color: white;
+    background-color: black;
+    padding: 0 40px;
+
+    flex-basis: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 2;
+}
+
+.navigate-items-right {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.page {
+    padding: 0 40px;
+}
+
+.headlines {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +46,7 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
+    align-content: center;
     flex-basis: 280px;
 
     border-radius: 8px;
@@ -45,8 +68,4 @@ article {
 .red-container-right {
     flex-grow: 0;
     flex-shrink: 1;
-}
-
-article p {
-
 }
